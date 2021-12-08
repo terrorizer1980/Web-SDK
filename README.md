@@ -15,7 +15,7 @@ This SDK supports:
 
 ### Languages
 
-This SDK supports Swift 5.1+. This SDK is written in Swift.
+This SDK supports Typescript (vTODO). This SDK is written in Typescript.
 
 ### Frameworks
 This SDK supports:
