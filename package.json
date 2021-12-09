@@ -4,6 +4,8 @@
   "description": "[WIP] One merchant integration point for all of PayPal's services",
   "main": "index.js",
   "scripts": {
+    "prettier": "prettier --write .",
+    "prebuild": "npm run prettier",
     "build": "tsc --declaration",
     "lint": "eslint .",
     "test": "jest"

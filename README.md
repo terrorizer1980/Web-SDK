@@ -10,25 +10,26 @@ TODO - browser and node support
 
 This SDK supports:
 
-* npm
-* CDN
+- npm
+- CDN
 
 ### Languages
 
 This SDK supports Typescript (vTODO). This SDK is written in Typescript.
 
 ### Frameworks
+
 This SDK supports:
 
-* TODO list all supported frameworks (React, Vue, Angular, etc)
-
+- TODO list all supported frameworks (React, Vue, Angular, etc)
 
 ## Modularity
 
 The PayPal iOS SDK is comprised of various submodules.
-* `Card`
-* `PayPal`
-* ...
+
+- `Card`
+- `PayPal`
+- ...
 
 To accept a certain payment method in your app, you only need to include that payment-specific submodule.
 
@@ -39,7 +40,6 @@ To accept a certain payment method in your app, you only need to include that pa
 
 // STEP X: TODO
 ```
-
 
 ## Testing
 
