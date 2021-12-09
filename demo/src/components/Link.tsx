@@ -1,5 +1,5 @@
 import {
-  Link as ReactRouterLink,
+  NavLink as ReactRouterLink,
   LinkProps,
   useMatch,
   useResolvedPath
@@ -10,11 +10,10 @@ export function Link({ children, to, ...props }: LinkProps) {
   let match = useMatch({ path: resolved.pathname, end: true });
 
   return (
-    <div>
+    <>
       <ReactRouterLink to={to} {...props}>
         {children}
       </ReactRouterLink>
-      {match && " (active)"}
-    </div>
+    </>
   );
 }

@@ -11,19 +11,23 @@ const OtherPage = () => {
 
 function App() {
   return (
-    <BrowserRouter>
-      <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/other-page" element={<OtherPage />} />
-        <Route
-          path="*"
-          element={
-              <div>There's nothing here!</div>
-          }
-        />
-      </Routes>
-    </BrowserRouter>
+    <div className="app">
+      <BrowserRouter>
+        <Nav />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/other-page" element={<OtherPage />} />
+            <Route
+              path="*"
+              element={
+                  <div>There's nothing here!</div>
+              }
+            />
+          </Routes>
+        </main>
+      </BrowserRouter>
+    </div>
   );
 }
 
