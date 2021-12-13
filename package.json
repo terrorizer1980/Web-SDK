@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prettier": "prettier --write .",
+    "prettier:check": "prettier --check .",
     "prebuild": "npm run prettier",
     "build": "tsc --declaration",
     "lint": "eslint .",
