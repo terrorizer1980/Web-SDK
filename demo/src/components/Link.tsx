@@ -2,7 +2,7 @@ import {
   NavLink as ReactRouterLink,
   LinkProps,
   useMatch,
-  useResolvedPath
+  useResolvedPath,
 } from "react-router-dom";
 
 export function Link({ children, to, ...props }: LinkProps) {
