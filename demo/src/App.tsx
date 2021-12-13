@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Nav } from "./components/Nav";
 import { Home } from "./pages/Home";
+import { NotFound } from "./pages/NotFound";
 
 import "./App.css";
 
@@ -18,12 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/other-page" element={<OtherPage />} />
-            <Route
-              path="*"
-              element={
-                  <div>There's nothing here!</div>
-              }
-            />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
       </BrowserRouter>
